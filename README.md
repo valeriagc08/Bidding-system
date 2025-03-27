@@ -2,24 +2,24 @@
 
 A real-time bidding system that allows users to participate in auctions through a web interface. The system consists of:
 
-Manager Service: Handles auction configurations.
+**Manager Service:** Handles auction configurations.
 
-Bidder Service: Allows users to place bids and receive updates.
+**Bidder Service:** Allows users to place bids and receive updates.
 
-Frontend: Displays auction information and provides a bidding interface.
+**Frontend:** Displays auction information and provides a bidding interface.
 
 
-Team Contributions:
-Nahomy	Developed the Manager Service, set up WebSocket communication, wrote Docker configurations, and ensured backend stability.
-Melisa	Designed and implemented the Frontend using React, connected it to the Bidder Service, and handled user interactions.
-Mateo	Developed the Bidder Service, implemented WebSocket updates, and worked on handling real-time bid placement.
+**Team Contributions:**
+- Nahomy	Developed the Manager Service, set up WebSocket communication, wrote Docker configurations, and ensured backend stability.
+- Melisa	Designed and implemented the Frontend using React, connected it to the Bidder Service, and handled user interactions.
+- Mateo	Developed the Bidder Service, implemented WebSocket updates, and worked on handling real-time bid placement.
 
 
 
 How to Run the Project:
 The project is containerized using Docker, so it can be deployed easily.
 
-1. Running the Backend (Docker Containers)
+**1. Running the Backend (Docker Containers)**
 To start the services, run:
 ```
 docker run -d --name bidding-system-manager mafuertes/bidding-system:manager
@@ -39,7 +39,7 @@ docker-compose up
 ```
 
 
-2. Running the Frontend
+**2. Running the Frontend**
 ```
 cd frontend
 npm start
