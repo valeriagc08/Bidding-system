@@ -39,7 +39,7 @@ Para levantar los dos servicios utilizando **Docker Compose**, sigue estos pasos
 
 2. Ejecuta el siguiente comando para levantar los servicios:
 
-docker-compose up
+`docker-compose up`
 
 
 Este comando descargará las imágenes necesarias y ejecutará los contenedores para el **manager-service** y el **bidder-service**. Los contenedores estarán disponibles en los siguientes puertos:
@@ -53,16 +53,16 @@ Si prefieres correr el frontend localmente, sigue estos pasos:
 
 1. Navega a la carpeta `frontend`:
 
-cd frontend
+`cd frontend`
 
 
 2. Instala las dependencias:
 
-npm install
+`npm install`
 
 3. Luego, ejecuta el servidor de desarrollo:
 
-npm start
+`npm start`
 
 
 Esto iniciará el frontend en el navegador en `http://localhost:3000`.
@@ -73,12 +73,12 @@ Si prefieres usar las imágenes de Docker Hub directamente, puedes correr los co
 
 1. Para el **Manager Service**:
 
-docker run -d --name bidding-system-manager mafuertes/bidding-system:manager
+`docker run -d --name bidding-system-manager mafuertes/bidding-system:manager`
 
 
 2. Para el **Bidder Service**:
 
-docker run -d --name bidding-system-bidder mafuertes/bidding-system:bidder
+`docker run -d --name bidding-system-bidder mafuertes/bidding-system:bidder`
 
 Bidding-system/
 │
