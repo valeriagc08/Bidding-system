@@ -16,7 +16,7 @@ A real-time bidding system that allows users to participate in auctions through 
 
 
 
-**How to Run the Project:**
+## **How to Run the Project:**
 The project is containerized using Docker, so it can be deployed easily.
 
 **1. Running the Backend (Docker Containers)**
