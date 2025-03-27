@@ -81,15 +81,26 @@ Si prefieres usar las imágenes de Docker Hub directamente, puedes correr los co
 `docker run -d --name bidding-system-bidder mafuertes/bidding-system:bidder`
 
 Bidding-system/
+
 │
+
 ├── bidder-service/       # Código del servicio de postores
+
 ├── frontend/             # Código fuente de la aplicación frontend (React)
+
 │   ├── node_modules/     # Dependencias de npm
+
 │   ├── public/           # Archivos estáticos (HTML, iconos, etc.)
+
 │   └── src/              # Componentes y lógica de React
+
 │
 ├── manager-service/      # Código del servicio de manejo de subastas
+
 │   ├── node_modules/     # Dependencias de npm
+
 │   └── ...               # Archivos de configuración y lógica del backend
+
 │
+
 └── docker-compose.yml    # Configuración de Docker Compose para levantar los servicios
